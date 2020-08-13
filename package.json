@@ -1,0 +1,27 @@
+{
+  "name": "blogAdmin",
+  "version": "1.0.0",
+  "description": "博客后台，基于node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeakeyCode/blogAdmin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeakeyCode/blogAdmin/issues"
+  },
+  "homepage": "https://github.com/SeakeyCode/blogAdmin#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0"
+  }
+}
